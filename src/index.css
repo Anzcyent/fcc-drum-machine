@@ -1,0 +1,15 @@
+button.active {
+  background-color: #fff !important;
+  color: #000 !important;
+  transform: scale(5);
+}
+
+input {
+  width: 30% !important;
+}
+
+@media (max-width: 767px) {
+  button {
+    font-size: 10px !important;
+  }
+}
